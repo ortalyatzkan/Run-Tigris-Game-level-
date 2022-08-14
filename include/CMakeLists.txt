@@ -1,0 +1,21 @@
+﻿target_include_directories (oop2_ex04 PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_sources (oop2_ex04 PRIVATE 
+	         	                 "Controller.h"
+                                  "Board.h"
+                                 "Player.h"
+                                 "Object.h"
+                                 "Resources.h"
+                                   "File.h"
+								   "Board.h"
+								   "FiringMonster.h"
+								   "Egg.h"
+								   "Coin.h"
+								   "StaticObject.h"
+								   "MovingObject.h"
+								   "Monster.h"
+								   "ScorePresent.h"
+								   "TimePresent.h"
+								   "LifePresent.h"
+								   "Present.h"
+								   "RegularMonster.h"
+								   "Menu.h")
